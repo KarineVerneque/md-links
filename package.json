@@ -1,11 +1,14 @@
 {
-  "name": "peixinho",
+  "name": "md-links",
   "version": "1.0.0",
-  "description": "projetoooooooooo",
+  "description": "markdown project",
   "main": "lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "bin": {
+    "md-links": "./lib/cli.js"
+  }
 }
