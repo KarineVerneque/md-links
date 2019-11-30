@@ -2,16 +2,23 @@
   "name": "md-links",
   "version": "1.0.0",
   "description": "markdown project",
-  "main": "lib/index.js",
+  "main": "index.js",
   "scripts": {
     "test": "jest --coverage"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KarineVerneque/md-links.git"
+  },
+  "homepage": "https://github.com/KarineVerneque/md-links#readme",
   "author": "Karine",
   "license": "ISC",
   "bin": {
     "md-links": "./lib/cli.js"
   },
   "devDependencies": {
+    "eslint": "^6.7.2",
+    "install": "^0.13.0",
     "jest": "^24.9.0"
   }
 }
