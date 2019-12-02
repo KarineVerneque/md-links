@@ -2,7 +2,7 @@
   "name": "md-links",
   "version": "1.0.0",
   "description": "markdown project",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
     "test": "jest --coverage"
   },
@@ -14,7 +14,7 @@
   "author": "Karine",
   "license": "ISC",
   "bin": {
-    "md-links": "./lib/cli.js"
+    "md-links": "cli.js"
   },
   "devDependencies": {
     "eslint": "^6.7.2",
