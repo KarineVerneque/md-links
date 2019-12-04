@@ -62,12 +62,14 @@ mdLinks("./example.md")
 Para executar esta biblioteca, você deverá ter o    NodeJS e npm instalados.
 
 * Instale esse repositório com o comando:
-*`npm install -g KarineVerneque/md-links`.
+
+    `npm install -g KarineVerneque/md-links`.
 
 * Use a linha de comando para ler o aquivo markdown:
-* `$ md-links exemplo.md`
 
-* Com esse comandovocê receberá o título e os links que contém no arquivo que vc escolheu
+    `$ md-links exemplo.md`
+
+Com esse comandovocê receberá o título e os links que contém no arquivo que vc escolheu
 
 Por exemplo:
 
